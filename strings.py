@@ -1,12 +1,11 @@
+'''
+ Methods (functions limited to strings only, bounded to a specific data type)
 
+'''
+sentence = "Anything in between double/single quotes is known as string in Python"
+print (sentence)
 
-string = "The answer is 0.45359237. We assume you are converting between " \
-         "kilogram and pound. You can view more details on each measurement " \
-         "unit: kg or lbs The SI base unit for mass is the kilogram. 1 kilogram " \
-         "is equal to 2.2046226218488 lbs. ... " \
-         "Use this page to learn how to convert between kilograms and pounds"
-print(len(string))
-print(string.upper())
-print(string.lower())
-print(string.find("z"))
-print("answer" in string)
+print(sentence.upper()) # converts string in upper case letters
+print(sentence.lower()) # converts string in lower case letters
+print(sentence.title()) # converts every 1st letter of string in upper case
+# string formatting
